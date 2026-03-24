@@ -105,6 +105,8 @@ This module is the "eyes and ears" of the AI Doctor. It uses low-level Windows A
   ```
 - **Why it matters**: A laptop with a 60,000 mWh design battery that now only holds 40,000 mWh has **33.3% wear** — the AI can warn the user that their battery is physically degrading.
 
+> **Note**: For a better understanding of what these analytics look like, you can view the sample [battery_report.html](battery_report.html) included in this repository as an example!
+
 #### 4.1.5. Thermal Monitoring (`get_thermals`)
 - **What it reads**: CPU temperature (°C) and fan speed (RPM).
 - **How it works**: Uses a **3-tier fallback strategy**:
