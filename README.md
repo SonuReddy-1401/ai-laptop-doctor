@@ -105,7 +105,7 @@ This module is the "eyes and ears" of the AI Doctor. It uses low-level Windows A
   ```
 - **Why it matters**: A laptop with a 60,000 mWh design battery that now only holds 40,000 mWh has **33.3% wear** — the AI can warn the user that their battery is physically degrading.
 
-> **Note**: For a better understanding of what these analytics look like, you can **[view the LIVE sample battery report here](https://htmlpreview.github.io/?https://github.com/SonuReddy-1401/ai-laptop-doctor/blob/main/battery_report.html)**!
+> **Note**: For a better understanding of what these analytics look like, you can **[battery_report.html](https://htmlpreview.github.io/?https://github.com/SonuReddy-1401/ai-laptop-doctor/blob/main/battery_report.html)**!
 
 #### 4.1.5. Thermal Monitoring (`get_thermals`)
 - **What it reads**: CPU temperature (°C) and fan speed (RPM).
