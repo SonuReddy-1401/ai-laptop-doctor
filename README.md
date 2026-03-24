@@ -289,6 +289,23 @@ This script procedurally generates **500 synthetic training examples** for futur
 
 ---
 
+### 4.7. Action Triggers & Workflow Logic
+
+To provide a seamless experience, the AI uses sophisticated prompted logic to map vague user complaints to specific tools. For a deeper dive, read the full [LOGIC.md](LOGIC.md) document.
+
+#### Example Triggers:
+*   *"My computer is feeling very slow today"* → Evaluates RAM/CPU telemetry and triggers `optimize_ram` to safely restart `explorer.exe` and flush DNS.
+*   *"My Wi-Fi is connected but I don't have internet"* → Identifies DNS/Winsock issues and triggers `reset_network_stack`.
+*   *"I think my drives are feeling low"* → Parses storage telemetry and triggers `cleanup_system_junk`.
+
+#### The 3-Step "Freeze" Workflow
+When dealing with frozen apps, the AI ensures user safety over raw speed:
+1.  **Native Kill**: Automatically targets apps officially flagged by Windows as "Not Responding."
+2.  **Targeting**: Asks the user for the specific app name (e.g., "Word") and maps it to the process (`winword.exe`).
+3.  **Warning Zone**: If the user tries to force-kill an app that Windows reports as **healthy**, the AI interrupts with a warning: *"⚠️ Windows reports that [app] is healthy. Force-closing it will result in the loss of unsaved data! Are you absolutely sure?"*
+
+---
+
 ## 5. Technology Stack
 
 | Technology | Version | Purpose |
