@@ -1,0 +1,12 @@
+langchain_ollama
+langchain_community
+langchain_chroma
+langchain-text-splitters
+py-cpuinfo
+wmi
+pypiwin32
+psutil
+plotly
+pandas
+streamlit
+pypdf

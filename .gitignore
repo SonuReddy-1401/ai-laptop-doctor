@@ -1,0 +1,38 @@
+# Auto-generated .gitignore for Python / AI Project
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+.env
+
+# Model databases / heavy vector stores
+chroma_db/
+chroma.sqlite3
+
+# OS generated files
+Thumbs.db
+.DS_Store
+
+# Temporary outputs
+last_scan.json
+deleted_junk_log.txt
+battery_report.html
+execution.txt
+mdpdf.log
+md_preview.html
+
+# IDEs
+.vscode/
+.idea/
+
+# Large binaries or datasets
+*.pdf
+*.zip
+*.tar.gz
+*.csv
+fine_tuning_dataset.jsonl
