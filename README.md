@@ -413,7 +413,7 @@ python generate_dataset.py
 
 ## 10. Conclusion
 
-The AI Laptop Doctor demonstrates a complete, production-grade implementation of an **Agentic AI system** that bridges the gap between conversational AI and real-world system administration. By combining local LLM inference, Retrieval-Augmented Generation, real-time hardware telemetry, and a strict human-in-the-loop safety architecture, it delivers a tool that is both **intelligent enough to diagnose complex issues** and **safe enough to never cause harm**.
+The AI Laptop Doctor demonstrates a complete, production-grade implementation of an **Agentic AI system** that bridges the gap between conversational AI and real-world system administration. By combining local LLM inference, Retrieval-Augmented Generation, real-time hardware telemetry, and a strict human-in-the-loop safety architecture, it delivers the tool that is both **intelligent enough to diagnose complex issues** and **safe enough to never cause harm**.
 
 The project showcases expertise in:
 - **AI/ML**: Local LLM deployment, prompt engineering, RAG, vector databases, fine-tuning dataset generation
